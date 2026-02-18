@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "RU -> KZ Translator",
+  "version": "1.5",
+  "description": "Онлайн аудармашы",
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
